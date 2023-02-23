@@ -1,7 +1,6 @@
-check_word=input("write a word to check: ")
 def palindrome(word):
-  if word[:]==word[::-1]:
-    return True
-  else:
-    return False
+    return word == word[::-1]
+
+
+check_word = input("write a word to check: ")
 print(palindrome(check_word))
